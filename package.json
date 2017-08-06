@@ -1,7 +1,7 @@
 {
-  "name": "scotchy",
+  "name": "word bro",
   "version": "1.0.1",
-  "description": "Gulp Starter with Less",
+  "description": "basic sotch and less 181 % proof",
   "main": " ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotch-io/gulp-and-less-starter-kit"
+    "url": "https://github.com/10ryanna01/scrapstuffs.git"
   },
-  "author": "Nicholas Cerminara",
+  "author": "me",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.10",
