@@ -1,6 +1,10 @@
-# Starter kit to use Gulp with Less.
-====================================
-A super clean and easy to use starter kit for using Gulp and Less. This should help you repurpose Gulp and Less for your own projects.
+# basic Starter kit to use Gulp with Less.
+==================================== <br>
+A super clean and easy to use starter kit for using Gulp and Less. 
+
+repurposed Gulp and Less for my own projects.
+==============================================================================
+
 
 - Read the article: : http://scotch.io/tutorials/getting-started-with-less
 - Watch the video: https://www.youtube.com/watch?v=5nqWhwsMQqs
@@ -62,14 +66,3 @@ npm update --save-dev
 gulp
 ```
 
-
-## Quick Tips
-- Any changes in `assets/less/*` will trigger the Less to compile on save
-- All files in `assets/js/libs/*`  will be compressed to `build/jquery.plugins.min.js`
-- All files in `assets/js/*` (except for `libs`) will be compressed to `build/scripts.min.js`
-
-
-#### Special Thanks
-
-To Kenny Song for his contributions and https://github.com/baivong
-# scrapstuffs
