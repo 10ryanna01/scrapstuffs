@@ -1,0 +1,189 @@
+////////// themeable elements of this component
+
+ .theme--nav--text-color { a {color:  white ; 	} }
+
+.theme--nav--subnav-text-color{ a{ color: @link-color; } }
+ 
+
+
+
+.nav-tabs{
+ background: #1a2c42;
+}
+.nav-tabs>li>a,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.submenu>.nav {
+    //set various active states
+    // background-color: blue;
+    border-radius: 	0;
+        margin: 0;
+}
+
+.nav-tabs>li>a:hover{
+	color: #555;
+}
+
+
+///////////////////////////////////////////////
+/// set up nav scrollable container
+///////////////////////////////////////////////
+/// sub nav scrollable contennt
+.scroll-horizontal--wrap {
+    width: 100%;
+    height: 50px;
+    .list-item--link {
+        text-align: center;
+    }
+}
+
+.scroll-horizontal--container--list-container {
+    overflow: hidden;
+   float: left;
+    width: 95%;
+        @media (max-width: @screen-sm-max) {
+        	width: 100%;
+        }
+    .scroll-horizontal--list--contents {
+     // background: orange;
+    min-width: 1600px;
+    float: left;
+    text-align: 	center;	
+    display: inline-flex;
+    @media (max-width: @screen-sm-max) {
+        min-width: 100%;
+        float: none;
+        background: transparent;
+        display: 	block;
+    }
+    .item {
+        @media (max-width: @screen-sm-max) {
+            left: 0 !important;
+        }
+    }
+    &:after{
+    	  content: "";
+  display: table;
+  clear: both;	
+    }
+}
+
+
+
+
+}
+
+
+#arrowR {
+    background: @theme--lightblueAlt;
+    width: 20px;
+    height: 50px;
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+    @media (max-width: @screen-sm-max) {
+        display: none;
+    }
+}
+
+#arrowL {
+    background:  @theme--lightblueAlt;
+    width: 20px;
+    height: 50px;
+    float: left;
+    cursor: pointer;
+    padding-top: 10px;
+    @media (max-width: @screen-sm-max) {
+        display: none;
+    }
+}
+
+.item {
+  // /   background: blue;
+    min-width: 120px;
+    height: 40px;
+    margin: 8px 0;
+  
+    float: left;
+    position: relative;
+    @media (max-width: @screen-sm-max) {
+        border: 1px solid @theme--black;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-item--link{
+    	@media (max-width: @screen-sm-max) {
+    	display: block
+    	}
+    }
+}
+
+
+//////////////////////////////////////////////
+// set up additional nav items for smaller screens
+//////////////////////////////////////////////
+.nav-more--wrap{
+	
+	li a{
+		text-align: center;
+
+	}
+} 
+
+//crude turn on and turn off nav elements individuals based on custom break points.
+//this technique is a standard borrowed from how www.theverge.com does it. 
+//go have a look how they manage their main nav 
+// =)
+
+.extra-navigation{
+	display: 	none;
+
+ @media @desktop-xl {
+	display: 	none !important;
+
+}
+
+}
+
+.desktopnav-hide-1{
+	display: block;
+	 @media @desktopnav-hide-1{
+		display: none !important;	 	
+	 }
+
+
+}
+
+
+
+
+.desktopnav-hide-2{
+	display: block;
+@media @desktopnav-hide-2{
+		display: none !important;	 	
+	 }
+	 }
+
+
+
+
+
+.desktopnav-hide-3{	 
+	display: block;
+  @media (max-width: @screen-sm-max){
+		display: none !important;	 	
+}
+	 }
+
+
+	 .desktopnav-hide-4{
+	 	display: 	block;
+  @media (max-width: @screen-xs-max){
+
+ 			display: none !important;	 	 	
+  }
+
+	 }
+
+

@@ -1,0 +1,31 @@
+// start medial query variables
+
+@link-color: #495667;
+@link-color-hover: lighten(@link-color, 50%);
+
+
+@desktop-xl:  ~"only screen and (min-width: 1400px)";
+@desktopnav-hide-1:  ~"only screen and (max-width: 1405px)";
+@desktopnav-hide-2:  ~"only screen and (max-width: 1266px)";
+
+
+
+// start theme variables
+@theme--black: #000000;
+@theme--red: red;
+@theme--lightblue: #b6e5f9;
+@theme--lightblueAlt: #31b3e7;
+
+
+
+///font-sizes mixin for less
+
+.font-size(@sizeValue) {
+  @remValue: @sizeValue;
+  @pxValue: (@sizeValue * 10);
+  font-size: ~"@{pxValue}px"; 
+  font-size: ~"@{remValue}rem";
+}
+
+
+ 

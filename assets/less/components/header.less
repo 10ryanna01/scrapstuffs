@@ -1,0 +1,175 @@
+.header--wrap {
+
+    .header--title {
+        .font-size(4);
+        text-transform: uppercase;
+        text-align: left;
+        @media (max-width: @screen-sm-max) {
+            .font-size(6);
+            text-align: center;
+        }
+
+  @media (max-width: @screen-xs-max) {
+            .font-size(4);
+            text-align: center;
+        }
+
+
+
+    }
+
+    .header--title--primary {
+        color: @theme--black;
+    }
+
+
+    .header--title--secondary {
+        color: @theme--lightblue;
+    }
+
+
+
+
+.header--wrap--secondary {
+a{text-align: 	center;}
+    .header--contact--text {
+        position: relative;
+ display: 	block;
+    margin: 33px 0;
+        margin-left: 40px;
+        text-transform: uppercase;
+       
+        .font-size(1.2);
+        @media (max-width: @screen-sm-max) {
+            .font-size(3);
+                margin-left:0;
+                margin-right:0;
+        }
+
+        &:before {
+
+            content: " ";
+            display: block;
+            background: url("../../../assets/img/footer_contact_icon.svg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            // border: 1px solid red;
+            height: 35px;
+            width: 35px;
+            position: absolute;
+            top: -10px;
+            left: -40px;
+
+
+ @media (max-width: @screen-sm-max) {
+
+height: 55px;
+    width: 55px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+}
+
+
+
+        } //close contact text
+    }
+
+
+
+
+    .header--signup--text {
+        position: relative;
+           display: 	block;
+               margin: 33px 0 ;
+        margin-left: 40px;
+        text-transform: uppercase;
+       
+        .font-size(1.2);
+        @media (max-width: @screen-sm-max) {
+            .font-size(3);
+         margin-left:0;
+                margin-right:0;
+        }
+
+        &:before {
+
+            content: " ";
+            display: block;
+            background: url("../../../assets/img/header_myaccount_icon.svg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            // border: 1px solid red;
+            height: 35px;
+            width: 35px;
+            position: absolute;
+            top: -10px;
+            left: -40px;
+
+
+ @media (max-width: @screen-sm-max) {
+
+height: 55px;
+    width: 55px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+}
+
+
+        } //close signup text
+    }
+
+    .header--currency--text {
+        position: relative;
+
+        text-transform: uppercase;
+
+        padding:23px 0;
+        position: relative;
+        img {
+           
+            max-width: 40%;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .font-size(1.2);
+        @media (max-width: @screen-sm-max) {
+            .font-size(3);
+        } //close curency
+    }
+
+
+
+    .header--search--text {
+        position: relative;
+        background: @theme--lightblueAlt;
+        text-transform: uppercase;
+       padding: 23px 0;
+	     
+        position: relative;
+        img {
+            max-width: 40%;
+
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .font-size(1.2);
+        @media (max-width: @screen-sm-max) {
+            .font-size(3);
+        } //close curency
+
+         }
+
+}
+         //close header wrap secondary
+
+
+    } //close header wrap
+ 
